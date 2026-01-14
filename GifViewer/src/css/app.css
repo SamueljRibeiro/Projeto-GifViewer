@@ -1,0 +1,12 @@
+/* app global css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Azul-600{
+    @apply bg-blue-600
+}
+
+.AzulBLateral{
+    @apply bg-blue-950
+}
