@@ -38,6 +38,8 @@ ou
 
 yarn install
 
+Obs: Os comandos acima devem ser executados dentro da pasta do projeto GifViewer
+
 ## 🔐 Variáveis de Ambiente
 
 Este projeto utiliza uma chave da API do GIPHY.  
