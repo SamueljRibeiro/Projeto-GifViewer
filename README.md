@@ -1,61 +1,58 @@
-🚀 Funcionalidades
+# 🎬 GifViewer
 
-Listagem de GIFs populares
+Aplicação web para explorar GIFs utilizando a API do GIPHY, com busca por termos, filtros por categoria e sistema de favoritos, tudo em uma interface moderna e responsiva.
 
-Busca de GIFs por termo
+## 🚀 Funcionalidades
 
-Filtro por categorias
+- 📈 Listagem de GIFs populares
+- 🔍 Busca de GIFs por termo
+- 🗂️ Filtro por categorias
+- ⭐ Sistema de favoritos
+- 💾 Persistência de dados com LocalStorage
+- 📱 Interface responsiva (desktop e mobile)
 
-Sistema de favoritos
+## 🛠 Tecnologias Utilizadas
 
-Persistência de dados com LocalStorage
+- Vue 3 (Composition API + script setup)
+- Quasar Framework 2
+- Vue Router
+- Pinia (gerenciamento de estado)
+- TypeScript
+- Axios (requisições HTTP)
+- Tailwind CSS
+- LocalStorage
+- API do GIPHY
 
-Interface responsiva (desktop e mobile)
+## ⚙️ Configuração do Projeto
 
-🛠 Tecnologias Utilizadas
+### 📌 Pré-requisitos
 
-Vue 3 (Composition API + script setup)
+- Node.js (versão recomendada: LTS)
+- NPM ou Yarn
 
-Quasar Framework 2
+### 📥 Instalação
 
-Vue Router
-
-Pinia (gerenciamento de estado)
-
-TypeScript
-
-Axios (requisições HTTP)
-
-LocalStorage
-
-Tailwind CSS
-
-API do GIPHY
-
-⚙️ Configuração do Projeto
-Pré-requisitos
-
-Node.js (versão recomendada: LTS)
-
-NPM ou Yarn
-
-📥 Instalação
 npm install
 
-🔐 Variáveis de Ambiente
+ou
 
-Este projeto utiliza uma chave da API do GIPHY.
+yarn install
+
+## 🔐 Variáveis de Ambiente
+
+Este projeto utiliza uma chave da API do GIPHY.  
 Por boas práticas de segurança, o arquivo .env não é versionado.
 
-Crie um arquivo .env na raiz do projeto baseado no .env.example
+### Passos
 
-Adicione sua chave da API:
+1. Crie um arquivo .env na raiz do projeto baseado no .env.example
+2. Adicione sua chave da API:
 
 API_KEY=SUACHAVEAQUI
 
+A chave pode ser obtida gratuitamente em:  
+https://developers.giphy.com/
 
-A chave pode ser obtida gratuitamente em:
-👉 https://developers.giphy.com/
+## ▶️ Executar em Modo Desenvolvimento
 
-▶️ Executar em modo desenvolvimento
 npm run dev
