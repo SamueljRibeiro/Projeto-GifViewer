@@ -58,3 +58,7 @@ https://developers.giphy.com/
 ## ▶️ Executar em Modo Desenvolvimento
 
 npm run dev
+
+
+© 2026 - Samuel Ribeiro
+Projeto para fins educacionais.
